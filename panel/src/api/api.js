@@ -1,7 +1,7 @@
 import axios from "axios";
 import { clearStorage } from "../utils/Storage";
 
-const API = axios.create({ baseURL: "http://localhost:5000/api/" });
+const API = axios.create({ baseURL: "https://portfolio-4jnk.onrender.com/api/" });
 
 API.interceptors.request.use(
   (request) => {
