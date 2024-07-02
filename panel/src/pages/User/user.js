@@ -253,7 +253,7 @@ function User() {
                     <div role="tabpanel" hidden={value1 !== index}>
                       <div className='col-12 col-lg-12 col-md-12 container-fluid row justify-content-center align-items-center text-center text-warning mb-3 mt-2  '>
                         <div className=' col-12 col-lg-6 col-md-6'>
-                          <div><img src={project?.image} alt="Bottom Logo" height={"50%"} width={"50%"} /></div>
+                          <a href={project?.image}><img src={project?.image} alt="Bottom Logo" height={"50%"} width={"50%"} /></a>
                         </div>
                         <div className=' col-12 col-lg-6 col-md-6  d-flex flex-column gap-2'>
                           <div className='mt-1 '>
@@ -367,7 +367,7 @@ function User() {
                     <div role="tabpanel" hidden={value3 !== index}>
                       <div className='col-12 col-lg-12 col-md-12 container-fluid row justify-content-center align-items-center text-center text-warning mb-3 mt-2  '>
                         <div className=' col-12 col-lg-6 col-md-6'>
-                          <div><img src={certification?.image} alt="Bottom Logo" height={"50%"} width={"50%"} /></div>
+                          <a href={certification?.image}><img src={certification?.image} alt="Bottom Logo" height={"50%"} width={"50%"} /></a>
                         </div>
                         <div className=' col-12 col-lg-6 col-md-6  d-flex flex-column gap-2'>
                           <div className='mt-1 '>
