@@ -146,7 +146,7 @@ function User() {
         {/* Intro Section */}
 
         <div>
-          <h2>Intro</h2>
+          <h2>Intros</h2>
           <hr />
           <div className='container-fluid developer_background p-5 d-flex justify-content-center align-items-center gap-2 user_intro mt-1 flex-column flex-lg-row'>
             {intros?.map((intro, index) => (
