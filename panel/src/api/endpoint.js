@@ -1,0 +1,10 @@
+export const Login = "login";
+export const Signup = "admin";
+export const Intro = "intro";
+export const About = "about";
+export const Projects = "projects";
+export const Experience = "experience";
+export const Certification = "certification";
+export const Contact = "contact";
+export const Contactme = "contactme";
+export const Education = "education"

@@ -1,0 +1,12 @@
+.backgroundside
+{
+ background-color: #FE4557!important;
+}
+#buttons:hover{
+  background-color: #0B5ED7!important;
+  color: white !important;
+}
+.box_body
+{
+  border-radius: 50px 0px 50px 0px;
+}

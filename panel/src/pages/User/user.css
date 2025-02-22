@@ -1,0 +1,58 @@
+.user_intro_fullname
+{
+    color:yellow;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.user_background
+{
+    background: linear-gradient(to bottom right, white 50%, #FDB700 50%);
+    z-index: 100;
+    box-shadow: 0px 0px 16px  #FDB700;
+}
+
+.user_background1
+{
+    background: linear-gradient(to bottom right,  #FDB700 50%, white 50%);
+    z-index: 100;
+    box-shadow: 0px 0px 16px  #FDB700;
+}
+.developer_image{
+    width: 50%;
+    border-radius: 50%;
+    height: 275px!important;
+    transform: scale(1.0);
+    transition: transform 0.3s ease; 
+}
+
+.developer_background
+{
+    background: linear-gradient(to bottom right, rgb(234, 7, 255), #1414e393);
+    border-radius: 50px 0px 50px 0px !important;
+    overflow: hidden;
+}
+
+.contact_me
+{
+    background: linear-gradient(to bottom right, #FDB700, #1414e393);
+    border-radius: 10px 0px 10px 0px !important;
+    font-weight: 700;
+}
+.contact_me:hover
+{
+    background: #4e28c9fc !important;
+    border: 2px solid whitesmoke !important;
+    border-radius: 10px 0px 10px 0px !important;
+    font-weight: 700;
+}
+
+.Download_CV
+{
+    background: linear-gradient(to bottom right, #fd00ad, #1414e393);
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 10px 0px 10px 0px !important;
+    font-weight: 700;
+    border: 1px solid whitesmoke;
+}

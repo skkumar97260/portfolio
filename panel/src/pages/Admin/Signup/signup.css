@@ -1,0 +1,12 @@
+.sidebackround
+{
+ background-color: #FE4557;
+}
+#buttons:hover{
+  background-color: #0B5ED7!important;
+  color: white !important;
+}
+.box2_body
+{
+  border-radius: 50px 0px 50px 0px;
+}
